@@ -1,0 +1,88 @@
+!{{{ URXVT
+!
+! General
+urxvt*termName:           rxvt-unicode-256color
+urxvt*scrollBar:         false
+urxvt*secondaryScroll:    true
+urxvt*saveLines:         65535
+urxvt*cursorBlink:       false
+!urxvt*cursorUnderline:   true
+urxvt*urgentOnBell:       true
+!urxvt*override-redirect:false
+!urxvt*borderLess:       false
+!urxvt*internalBorder:       0
+!urxvt*externalBorder:       0
+!
+! Extensions
+urxvt*perl-lib:        /usr/lib/urxvt/perl/
+urxvt*perl-ext-common: default,matcher,searchable-scrollback,vtwheel
+urxvt*perl-ext:        default,url-select
+urxvt*kesym.M-u:       perl:url-select:select_next
+urxvt*urlLauncher:     dwb
+urxvt*keysym.M-u:      perl:url-select:select_next
+urxvt*matcher.button:  1
+URxvt.keysym.Control-Up:   \033[1;5A
+URxvt.keysym.Control-Down:    \033[1;5B
+URxvt.keysym.Control-Left:    \033[1;5D
+URxvt.keysym.Control-Right:    \033[1;5C
+	
+! Catch ugly URLs
+urxvt*cutchars:        '"'()*<>[]{|}
+!
+! Appearance
+urxvt*font:		-*-terminus-*-*-*-*-12-*-*-*-*-*-*-*
+!urxvt*font:		-*-ohsnap-medium-*-*-*-11-*-*-*-*-*-*-*
+!urxvt*font:		-*-ohsnap-medium-*-*-*-11-*-*-*-*-*-*-*
+!urxvt*boldFont:		-*-ohsnap-bold-*-*-*-11-*-*-*-*-*-*-*
+!urxvt*boldFont: 	-*-terminus-bold-*-*-*-12-*-*-*-*-*-*-
+!
+! Cursor
+urxvt*cursorColor: #DCDCCC
+! URLs
+urxvt*.colorUL:    #ffffff
+!
+! Pseudo Transparency
+!urxvt*shading:    30
+!urxvt*transparent:true
+!
+! True Transparency
+urxvt*depth: 32
+urxvt*background: rgba:0000/0000/1111/dddd
+!
+! Colors
+!urxvt*background: #2c2f30
+urxvt*foreground: #999999
+! Black/DarkGrey
+urxvt*color0:  #282a2b
+!urxvt*color0:  #212121
+urxvt*color8:  #2c2f30
+!Reds
+urxvt*color1:  #f85708
+urxvt*color9:  #ff0000
+! Greens
+urxvt*color2:  #65ac35
+urxvt*color10: #54d706
+! Yellows
+urxvt*color3:  #ffff66
+urxvt*color11: #ffcc00
+! Blues
+urxvt*color4:  #18618f
+urxvt*color12: #0b78af
+! Purples
+urxvt*color5:  #7b41ff
+urxvt*color13: #9000ff
+! Cyans
+urxvt*color6:  #64fdff
+urxvt*color14: #00aeb0
+! LightGrey/White
+urxvt*color7:  #a8a8a8
+urxvt*color15: #f0f0f0
+!}}}
+
+Xft.autohint: 0
+Xft.lcdfilter: lcddefault
+Xft.hintstyle: hintfull
+Xft.hinting: 1
+Xft.antialias: 1
+Xft.dpi: 96
+Xft.rgba: rgb
